@@ -2,9 +2,9 @@
  * Task Six: Write code to output prime numbers in the interval from 2 to n
  */
 
-function isPrime(n){
-    var loopLimit = Math.sqrt(n);
-    for( var i = 0; i < Math.floor(loopLimit); i++){
+ function isPrime(n){
+    
+    for( var i = 2; i <= Math.floor(Math.sqrt(n)); i++){
         if(n % i === 0) return false;
     }
 
@@ -18,4 +18,4 @@ function outputPrimesUpTo(num){
 }
 
 // driver code
-outputPrimesUpTo(5);
+outputPrimesUpTo(10);

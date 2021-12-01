@@ -11,7 +11,3 @@ while(i < 10){
     alert(`number is ${i}`);
     i++;
 }
-
- for(let i = 0; i < 10; i++){
-    alert(`number is ${i}`);
-}
